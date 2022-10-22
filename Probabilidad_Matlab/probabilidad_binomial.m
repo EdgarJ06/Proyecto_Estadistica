@@ -202,7 +202,7 @@ end
 
 % --- Executes on button press in btnLimpiar.
 function btnLimpiar_Callback(hObject, eventdata, handles)
-set(handles.txtNExitos,'string', " ");
+set(handles.txtTotalCasos,'string', " ");
 set(handles.txtNExitos,'string', " ");
 set(handles.txtProbabilidad,'string', " ");
 set(handles.txtResultado,'string', " ");
